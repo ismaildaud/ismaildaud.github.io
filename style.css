@@ -1,3 +1,6 @@
+html{
+  font-size: 20px;
+}
 body{
   background-color: #444444;
   color: #dddddd;
@@ -5,12 +8,71 @@ body{
   margin: 10% 20%
 }
 
-.exp-header{
+
+header{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-pic{
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin: 0;
+  
+
+}
+
+footer {
+  font-size: .8rem;
+}
+footer div{
+  display : flex;
+  justify-content: space-between;
+  .col:hover {
+    background-color: lightblue;
+  }
+  
+
+
+}
+
+h3 {
   text-align: center;
   text-transform: uppercase;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
   background-color: rgba(0,0,0,0.1);
+  font-size: 1.4rem; 
+  
+}
+
+.role {
+  margin-bottom: 30px;
+
+}
+.role-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin: 0;
+  text-decoration: underline;
+}
+
+h5, h6 {
+  font-size: 1.1rem;
+  margin: 0 0 5px 0; 
+}
+
+h6 {
+  font-style: italic;
 }
 
 .profile-pic{
